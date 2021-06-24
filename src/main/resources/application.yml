@@ -1,0 +1,16 @@
+mybatis:
+  mapper-locations: mapper/**/*.xml
+  type-aliases-package: com.example.smsauth
+
+spring:
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/facebook
+    username: root
+    password: koreait
+
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
